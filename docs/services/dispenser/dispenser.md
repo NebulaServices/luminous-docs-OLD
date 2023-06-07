@@ -10,11 +10,9 @@ Dispenser is a proxy link dispenser bot for Discord. It allows you to create a p
 ## Features
 
 - Easy administration commands
-- Domain reporting system
-- Easy configuration with a single config file
-- Fast and reliable
+- Domain groups
+- Custom role limits
+- 
 
 ## Coming soon
-- Prevent user from getting the same domain twice
-- pagination for viewing user database
-- and more!
+
