@@ -28,6 +28,11 @@ cp .env.example .env
 ```
 Then edit `.env` with any text editor and fill out the keys.
 
+Prisma setup: (make sure you added your database connection string to `.env`)
+```bash
+npm run push
+```
+
 Finally, start the bot with `npm run js`.
 
 (Tip: You can use a process manager like PM2 or systemd to run the bot in the background)
