@@ -13,10 +13,6 @@ To install Dispenser, you must first clone the repository:
 git clone https://github.com/NebulaServices/Dispenser.git
 cd Dispenser
 ```
-Install dependencies:
-```bash
-npm install
-```
 
 Copy `.env.example` to `.env`:
 ```bash
@@ -28,12 +24,15 @@ cp .env.example .env
 ```
 Then edit `.env` with any text editor and fill out the keys.
 
-Prisma setup: (make sure you added your database connection string to `.env`)
+Now, run the designated install script for your system:
+
+MacOs/Linux:
 ```bash
-npm run push
+start.sh
 ```
 
-Finally, start the bot with `npm run js`.
-
-(Tip: You can use a process manager like PM2 or systemd to run the bot in the background)
+Windows:
+```bash
+start.bat
+```
 
