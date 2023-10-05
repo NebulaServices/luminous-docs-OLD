@@ -1,8 +1,11 @@
----
-title: Dynamic 
----
-![Frame 1 (6)](https://media.discordapp.net/attachments/1108362620639117403/1113851416830820494/238201984-5fbb36d7-67e9-4117-aa23-5b064ed99760.png?width=2206&height=1036)
-Join the revolution today and experience the power of Dynamic.
+
+
+![Frame_1_6](https://github.com/NebulaServices/Dynamic/assets/81369743/373dc333-ff38-46c7-90f7-bd34899a6807)
+![Version](https://img.shields.io/badge/status-BETA-build) 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![License](https://img.shields.io/github/license/NebulaServices/Dynamic.svg)](https://github.com/NebulaServices/Dynamic/blob/main/LICENSE)
+[![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Features
 
@@ -17,20 +20,29 @@ Join the revolution today and experience the power of Dynamic.
 - Diabolically fast
 - Written in TypeScript
 
+## Implementation
+See [Examples](https://github.com/NebulaServices/Dynamic/tree/main/examples);
+
 ## Getting started (How to run)
 
+### Method 1
 
-### The absolute simplest way
-
-Dynamics CLI makes it easy to not only download Dynamic but use it too! 
-
-```
-npm i @greenydeveloper/dynamic-cli -g && dynamic auto --start
-```
-
-### The normal way 
+1. Clone and change directory into Dynamic
 ```bash
-git clone https://GitHub.com/NebulaServices/dynamic.git && cd Dynamic
+git clone https://github,com/NebulaServices/Dynamic.git && cd Dynamic
+```
+
+2. Run bash script and follow the instructions in the script
+```bash
+./bin/start.sh
+```
+
+
+### Method 2 
+
+1. Clone and change directory into Dynamic
+```bash
+git clone https://GitHub.com/NebulaServices/Dynamic.git && cd Dynamic
 ```
 
 2. Install dependencies
@@ -38,13 +50,27 @@ git clone https://GitHub.com/NebulaServices/dynamic.git && cd Dynamic
 npm i 
 ```
 
-3. Run the server
+3. Build Dynamic Bundles
+```bash
+npm run build
+```
+
+4. Run the server
 ```bash
 npm start
 ```
+
+## Notice 
+
+Hi there, we're launching this project in **early public beta**. Behind the scenes we're working hard at rewriting and bug fixes. Thanks for understanding. 
+
+## Developer support 
+We have our very own developer support server! Join with this link: https://discord.gg/shESgmwt3M
+
 ## Authors
 
-- [@EnderKingJ](https://www.github.com/EnderKingJ) - Lead developer
+- [@Sylvie](https://www.github.com/Sylvie-TN) - Lead developer
+- [@GreenyDev](https://github.com/GreenyDEV) - Documentation, project manager
 
 
 Made with ❤️ By Nebula Services 

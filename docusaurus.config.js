@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.nebulaproxy.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -76,6 +76,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {to: 'blog', label: 'Blog', position: 'left'},
            
           {
             href: 'https://github.com/NebulaServices/luminous-docs',
@@ -123,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `LuminDoc Copyright © ${new Date().getFullYear()} Nebula Services. Built with Docusaurus.`,
+        copyright: `Luminous-Docs Copyright © ${new Date().getFullYear()} Nebula Developer Labs. Epicly Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

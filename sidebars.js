@@ -85,16 +85,25 @@ const sidebars = {
               label: 'Implementation',
               items: [
                 'services/dynamic/implementation/Getting-Started',
+                'services/dynamic/implementation/Configuring-Dynamic',
+                {
+                  type: 'category',
+                  label: 'Configuring Dynamic',
+                  items: [
+                    'services/dynamic/implementation/configuration/bare',
+                    'services/dynamic/implementation/configuration/encoding',
+                    'services/dynamic/implementation/configuration/logging', 
+                    'services/dynamic/implementation/configuration/modes'
+                   ]
+                },
                 'services/dynamic/implementation/Moving-Files',
                 'services/dynamic/implementation/Worker-Registration',
-                'services/dynamic/implementation/Configuring-Dynamic',
-                'services/dynamic/implementation/Final-Touches',
-                'services/dynamic/implementation/Summary',
+             
               ],
             },
             {
               type: 'category',
-              label: 'Run Dynamic Headless',
+              label: 'Dynamic Headless',
               items: [
                 'services/dynamic/guides/headless/index',
                 'services/dynamic/guides/headless/pm2',
@@ -117,6 +126,13 @@ const sidebars = {
             'services/dynamic/implementation-examples',
           ],
         },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Sylo',
+      items: [
+        'services/sylo/intro',
       ],
     },
   ],

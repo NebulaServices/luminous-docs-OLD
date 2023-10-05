@@ -4,7 +4,7 @@ title: Supported sites
 Dynamic supports many sites! We ensure the best experience on these sites. 
 
 
-🟢 https://discord.com/
+🟡 https://discord.com/
 
 🟢 https://discord.com/developers
 
